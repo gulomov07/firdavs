@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUVERSE — Online Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+    <div class="loader-logo">E<span>.</span></div>
+    <p>EDUVERSE</p>
+</div>
+
+<header class="header">
+    <a href="#" class="logo">EDU<span>VERSE.</span></a>
+
+    <nav class="nav" id="nav">
+        <a href="#home">Bosh sahifa</a>
+        <a href="#courses">Kurslar</a>
+        <a href="#about">Biz haqimizda</a>
+        <a href="#contact">Aloqa</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="theme-btn" id="themeBtn">☾</button>
+        <button class="login-btn" id="loginBtn">Kirish ↗</button>
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="eyebrow">
+            <span class="live-dot"></span>
+            KELAJAGINGIZNI BUGUN BOSHLANG
+        </div>
+
+        <h1>Bilim bilan<br>kelajagingizni <span>yarating.</span></h1>
+
+        <p>
+            Zamonaviy kasblarni o'rganing, yangi imkoniyatlarni kashf eting
+            va o'z kelajagingizni o'zingiz quring.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#courses" class="primary-btn">Kurslarni ko'rish ↗</a>
+            <a href="#about" class="secondary-btn">Batafsil ma'lumot</a>
+        </div>
+
+        <div class="hero-stats">
+            <div><strong>25+</strong><span>Professional kurslar</span></div>
+            <div><strong>10K+</strong><span>O'quvchilar</span></div>
+            <div><strong>95%</strong><span>Mamnuniyat</span></div>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="floating-card top-card">
+            <span class="card-icon">🎓</span>
+            <div><strong>Learning</strong><small>Yangi imkoniyatlar</small></div>
+        </div>
+
+        <div class="main-visual-card">
+            <div class="visual-top">
+                <span>YOUR FUTURE</span>
+                <span>✦ 2026</span>
+            </div>
+            <div class="visual-illustration">🚀</div>
+            <h2>Dream Big.<br>Learn More.</h2>
+            <div class="visual-progress">
+                <span>Learning progress</span>
+                <strong>85%</strong>
+            </div>
+            <div class="progress-line"><span></span></div>
+        </div>
+
+        <div class="floating-card bottom-card">
+            <span class="card-icon">🔥</span>
+            <div><strong>Keep learning!</strong><small>Har kuni yangi bilim</small></div>
+        </div>
+    </div>
+</section>
+
+<section class="partners">
+    <p>ENG YAXSHI BILIMLAR BIR JOYDA</p>
+    <div class="partner-list">
+        <span>HTML5</span><span>CSS3</span><span>JAVASCRIPT</span>
+        <span>PYTHON</span><span>FIGMA</span>
+    </div>
+</section>
+
+<section class="courses section" id="courses">
+    <div class="section-heading">
+        <div>
+            <span class="section-label">BIZNING KURSLAR</span>
+            <h2>O'zingiz uchun <span>eng yaxshisini</span> tanlang.</h2>
+        </div>
+        <p>O'z maqsadingizga mos kursni toping va bilim olishni boshlang.</p>
+    </div>
+
+    <div class="course-tools">
+        <div class="search-box">
+            <span>⌕</span>
+            <input type="text" id="searchInput" placeholder="Kurs qidirish...">
+        </div>
+
+        <div class="filters" id="filters">
+            <button class="filter active" data-filter="all">Barchasi</button>
+            <button class="filter" data-filter="programming">Dasturlash</button>
+            <button class="filter" data-filter="design">Dizayn</button>
+            <button class="filter" data-filter="business">Biznes</button>
+        </div>
+    </div>
+
+    <div class="course-grid" id="courseGrid"></div>
+    <p class="empty-message" id="emptyMessage">Kurs topilmadi 😕</p>
+</section>
+
+<section class="about section" id="about">
+    <div class="about-visual">
+        <div class="about-big">EDU.</div>
+        <div class="about-small">
+            <span>✦</span>
+            <strong>Learn without limits</strong>
+            <small>Bilim — eng katta sarmoya.</small>
+        </div>
+    </div>
+
+    <div class="about-content">
+        <span class="section-label">NEGA AYNAN BIZ?</span>
+        <h2>Ta'limning yangi <span>bosqichiga</span> xush kelibsiz.</h2>
+        <p>
+            EDUVERSE — bilim olishni oson, qulay va qiziqarli qiladigan
+            zamonaviy ta'lim platformasi.
+        </p>
+
+        <div class="benefit">
+            <span>01</span>
+            <div><strong>Professional kurslar</strong><p>Amaliy bilim va foydali darslar.</p></div>
+        </div>
+        <div class="benefit">
+            <span>02</span>
+            <div><strong>Qulay o'rganish</strong><p>O'zingizga mos vaqtda ta'lim oling.</p></div>
+        </div>
+        <div class="benefit">
+            <span>03</span>
+            <div><strong>Doimiy rivojlanish</strong><p>Yangi bilimlar bilan oldinga intiling.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="dashboard section">
+    <div class="dashboard-heading">
+        <div>
+            <span class="section-label">SHAXSIY NATIJALAR</span>
+            <h2>Mening <span>o'qishim.</span></h2>
+        </div>
+        <span class="dashboard-tag">LIVE DASHBOARD</span>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="dash-card">
+            <span>📚</span><strong id="enrolledCount">0</strong>
+            <p>Tanlangan kurslar</p>
+        </div>
+        <div class="dash-card">
+            <span>🏆</span><strong id="completedCount">0</strong>
+            <p>Tugatilgan kurslar</p>
+        </div>
+        <div class="dash-card">
+            <span>⭐</span><strong id="totalPoints">0</strong>
+            <p>To'plangan ballar</p>
+        </div>
+    </div>
+
+    <div class="my-courses" id="myCourses">
+        <div class="no-courses">
+            <span>📖</span>
+            <h3>Hali kurs tanlamagansiz</h3>
+            <p>Kurslardan birini tanlang va o'rganishni boshlang.</p>
+        </div>
+    </div>
+</section>
+
+<section class="quiz-section section">
+    <div class="quiz-info">
+        <span class="section-label">BILIMINGIZNI SINAB KO'RING</span>
+        <h2>Bilimingizni <span>tekshiring.</span></h2>
+        <p>Qiziqarli testlar orqali bilim darajangizni aniqlang va ball to'plang.</p>
+    </div>
+
+    <div class="quiz-card">
+        <div class="quiz-top">
+            <span>🧠 MINI QUIZ</span>
+            <span id="questionNumber">1 / 5</span>
+        </div>
+        <div class="quiz-progress"><span id="quizProgress"></span></div>
+        <h3 id="question">Savol yuklanmoqda...</h3>
+        <div class="answers" id="answers"></div>
+        <div class="quiz-bottom">
+            <span id="quizFeedback">To'g'ri javobni tanlang</span>
+            <button id="nextQuestion" disabled>Keyingi →</button>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <div>
+        <span>BUGUN BOSHLANG</span>
+        <h2>Kelajak sizning qo'lingizda.</h2>
+        <p>Bilim olishni kechiktirmang. Birinchi qadamingizni bugun qo'ying.</p>
+    </div>
+    <a href="#courses">Kurslarni boshlash ↗</a>
+</section>
+
+<section class="contact section" id="contact">
+    <span class="section-label">BIZ BILAN BOG'LANING</span>
+    <h2>Savollaringiz <span>bormi?</span></h2>
+    <p>Bizga xabar qoldiring. Siz bilan bog'lanamiz.</p>
+
+    <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Ismingiz" required>
+        <input type="email" id="contactEmail" placeholder="Email manzilingiz" required>
+        <textarea id="contactMessage" placeholder="Xabaringiz..." required></textarea>
+        <button type="submit">Xabar yuborish ↗</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+</main>
+
+<footer class="footer">
+    <a href="#" class="logo">EDU<span>VERSE.</span></a>
+    <p>© 2026 EDUVERSE. Barcha huquqlar himoyalangan.</p>
+    <a href="#home">Yuqoriga ↑</a>
+</footer>
+
+<div class="modal" id="courseModal">
+    <div class="modal-content">
+        <button class="modal-close" id="closeModal">✕</button>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
